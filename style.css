@@ -18,10 +18,6 @@ header{
     justify-content: space-between;
 }
 
-header>h1{
-    
-    
-}
 header>nav{
     display: flex;
     flex-flow: row wrap;
@@ -37,11 +33,15 @@ section{
     margin: 20px;
 }
 section.flex-content{
-    width: 900px;
+    margin: auto;
 }
 section.flex-content>h2{
     margin-top: 10px;
     margin-bottom: 20px;
+}
+section.flex-content>p{
+    display: block;
+    font-size: 1em;
 }
 div.text>h3{
     font-size: 20px;
@@ -50,12 +50,30 @@ main{
     width: 90vw;
     margin: auto;
 }
-article.media-text{
+article{
     border: 1px solid black;
     border-radius: 10px;
+}
+article.media-text{
+    display: flex;
+    flex-flow: column;
+}
+article.media-text2{
+    display: flex;
+    flex-flow: row nowrap;
 }
 article>div>img{
     width: 527px;
     height: 256px;
+    border-radius: 10px;
+}
+div.text{
+    display: flex;
+}
+form{
+    padding: 20px;
+}
+form>input{
+    padding: 10px;
     border-radius: 10px;
 }
