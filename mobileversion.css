@@ -1,4 +1,44 @@
 @charset "UTF-8";
-@media screen {
-    
+@media screen and (max-width:1050px){
+    article>div.media{
+        display: flex;
+
+    }
+    article>div.media>img{
+        display: flex;
+        width: 50vw;
+
+    }
+}
+@media  screen and (max-width: 870px) {
+    article.media-text{
+        display: flex;
+        flex-flow: column-reverse;
+    }
+    article>div.media{
+        display: flex;
+        flex-direction: row-reverse;
+        flex: auto;
+    }
+   article>div.media>img{
+    width: 100%;
+    height: auto;
+   }
+    article>div.text{
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    article.media-text2{
+        display: flex;
+         flex-direction: row-reverse;
+         flex-flow: column-reverse;
+    }
+    header{
+        display: flex; justify-content: center;
+    }
+    header>nav a{
+
+        flex-basis: 50px;
+       
+    }
 }

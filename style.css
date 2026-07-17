@@ -27,6 +27,11 @@ header>nav>a{
     color: white;
     padding: 10px;
     text-decoration: none;
+    border-radius: 10px;
+}
+header>nav>a:hover{
+    background-color: #333955;
+    transition: 1s;
 }
 section{
     padding: 20px;
