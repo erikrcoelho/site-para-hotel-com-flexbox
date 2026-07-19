@@ -91,13 +91,30 @@ article>div.media{
     display: flex;
 
 }
+
 form{
     padding: 20px;
+    margin: auto;
+    display: block;
+    
 }
+div.form{
+   display: flex;
+   justify-content: space-evenly;
+}
+
 form>input{
     padding: 10px;
     border-radius: 10px;
+    width: 550px;
+    margin: 6px;
 }
-@media screen {
+form>input#itexto{
+    height: 200px;
+}
+iframe{
+    margin: 34px 57px 0px 8px;
+    border: none;
+    border-radius: 20px;
     
 }
