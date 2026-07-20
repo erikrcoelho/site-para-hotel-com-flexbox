@@ -92,15 +92,12 @@ article>div.media{
 
 }
 
-form{
-    padding: 20px;
-    margin: auto;
-    display: block;
+form.editar{
+  flex-flow: row wrap;
     
 }
 div.form{
-   display: flex;
-   justify-content: space-evenly;
+   
 }
 
 form>input{
