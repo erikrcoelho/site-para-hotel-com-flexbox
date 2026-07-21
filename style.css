@@ -89,29 +89,45 @@ article>div.text h3{
 article>div.media{
     flex: 1 0 400px;
     display: flex;
-
 }
 
-form.editar{
-  flex-flow: row wrap;
+div.form{
+    display: flex;
+    margin: auto;
+}
+div.form>form{
+   
+}
+footer{
+    display: flex;
     
 }
 div.form{
-   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
-
-form>input{
+div.itens>input{
     padding: 10px;
     border-radius: 10px;
     width: 550px;
     margin: 6px;
 }
-form>input#itexto{
+div.itens{
+   flex-flow: row nowrap;
+}
+div.itens>input#itexto{
     height: 200px;
 }
 iframe{
-    margin: 34px 57px 0px 8px;
+    
     border: none;
     border-radius: 20px;
-    
+}
+div.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
