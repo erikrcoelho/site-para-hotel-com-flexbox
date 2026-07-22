@@ -10,7 +10,7 @@
 
     }
 }
-@media  screen and (max-width: 870px) {
+@media  screen and (max-width:870px) {
     article.media-text{
         display: flex;
         flex-flow: column-reverse;
@@ -34,11 +34,25 @@
          flex-flow: column-reverse;
     }
     header{
-        display: flex; justify-content: center;
+        display: flex; 
+        justify-content: center;
     }
     header>nav a{
 
         flex-basis: 50px;
        
+    }
+}
+@media  screen and (max-width:550px) {
+    div.itens>input{
+        width: 100%;
+        max-width: 550px;
+    }
+    div.conteiner{
+        width: 100%;
+        max-width: 500px;
+    }
+    form>h3{
+        text-align: center;
     }
 }
